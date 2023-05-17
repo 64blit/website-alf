@@ -1,12 +1,62 @@
 import Nav from "./Nav";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+import axios from 'axios';
 import { BsArrowRight } from "react-icons/bs";
-
 import ContactHeaderImg from "../assets/contactHeader.png"
+
+
+const sendEmail = async (name, email, tel, message) =>
+{
+    return axios({
+        method: 'post',
+        url: '/api/send-mail',
+        data: {
+            email: email,
+            name: name,
+            phone: tel,
+            message: message,
+        },
+    });
+};
+
 
 const ContactHeader = () =>
 {
+
+    const [ formStatus, setFormStatus ] = React.useState('Send')
+    const onSubmit = async (e) =>
+    {
+        e.preventDefault()
+        setFormStatus('Submitting...')
+        const { name, email, tel, message } = e.target.elements
+        let formData = {
+            name: name.value,
+            email: email.value,
+            phone: tel.value,
+            message: message.value,
+        }
+        console.log(formData)
+
+        try
+        {
+            const req = await sendEmail(formData.name, formData.email, formData.phone, formData.message);
+
+            if (req.status === 250)
+            {
+                setFormStatus('Submited!')
+            }
+        } catch (e)
+        {
+            console.log(e);
+
+            setFormStatus('Failed to send.')
+        }
+
+    }
+
+
     return (
         <section className="overflow-hidden relative">
             <div className="image absolute top-0 right-0 left-0 bottom-0">
@@ -26,15 +76,23 @@ const ContactHeader = () =>
                         </div>
                     </div>
                     {/* contact */}
-                    <div className="contact bg-white rounded-md p-[1.5rem] flex flex-col w-full gap-3">
-                        <input type="text" className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Name" />
-                        <input type="email" className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Email" />
-                        <input type="tel" className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Telphone" />
-                        <textarea name="" className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" rows="7"></textarea>
-                        <Link href="">
-                            <div className="btn bg-[#50A060] text-white text-center w-full rounded-md py-4 font-bold">Let's Talk</div>
-                        </Link>
-                    </div>
+                    <form className="contact bg-white rounded-md p-[1.5rem] flex flex-col w-full gap-3" onSubmit={onSubmit}>
+
+                        <input required type="text" id='name' className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Name" />
+
+                        <input required type="email" id='email' className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Email" />
+
+
+                        <input type="tel" id='tel' className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" placeholder="Telphone" />
+
+
+                        <textarea required id='message' name="" className="w-full border border-slate-300 p-[1rem] rounded-md outline-none" rows="7"></textarea>
+
+
+                        <button href="" type="submit">
+                            <div className="btn bg-[#50A060] text-white text-center w-full rounded-md py-4 font-bold">{formStatus}</div>
+                        </button>
+                    </form>
                 </section>
             </div>
         </section>
