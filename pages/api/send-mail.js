@@ -7,7 +7,7 @@ export default async function handler(req, res)
 
         const message = {
             from: req.body.email,
-            to: process.env.GMAIL,
+            to: process.env.INBOX,
             subject: 'contact us form: ' + req.body.name,
             text: req.body.message,
             html: `<p> phone: ${req.body.phone} message: ${req.body.message}</p>`,
