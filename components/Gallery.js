@@ -17,22 +17,23 @@ import G4 from "../assets/g4.jpeg"
 import G5 from "../assets/g5.jpeg"
 import G6 from "../assets/g6.jpeg"
 import G7 from "../assets/g7.jpeg"
-import G9 from "../assets/g9.jpeg"
+import G8 from "../assets/g9.jpeg"
 
 
 
-const Gallery = () => {
+const Gallery = () =>
+{
     return (
         <div className="bg-gray-200  py-[4rem] text-center">
             <div className="text w-[70%] md:w-[30%] mx-auto">
                 <h2 className="text-gray-600 text-2xl font-bold mb-[1rem]">Gallery</h2>
-                <p className="text-base md:text-xl">Urna sit adipiscing donec egestas nisl libero. Orci penatibus magna sed sit lacinia eget diam.</p>
+                {/* <p className="text-base md:text-xl">Urna sit adipiscing donec egestas nisl libero. Orci penatibus magna sed sit lacinia eget diam.</p> */}
             </div>
             {/* main gallery */}
             <div className="gallery mt-[2rem]">
                 <Swiper
-                    slidesPerView={5}
-                    spaceBetween={30}
+                    slidesPerView={4}
+                    spaceBetween={20}
                     freeMode={true}
                     loop={true}
                     autoplay={{
@@ -42,101 +43,55 @@ const Gallery = () => {
                     // pagination={{
                     // clickable: true,
                     // }}
-                    modules={[FreeMode, Autoplay]}
+                    modules={[ FreeMode, Autoplay ]}
                     className="w-[100%]"
                 >
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G1} className="w-[20rem] h-[12rem]" />
+                            <Image src={G1} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
-                    <SwiperSlide className="w-[20rem] h-[12rem]">
+                    <SwiperSlide >
                         <div className="">
-                            <Image src={G2} className="w-[20rem] h-[12rem]"  />
+                            <Image src={G2} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G3} className="w-[20rem] h-[12rem]" />
+                            <Image src={G3} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G4} className="w-[20rem] h-[12rem]"  />
+                            <Image src={G4} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G1} className="w-[20rem] h-[12rem]" />
+                            <Image src={G5} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G2} className="w-[20rem] h-[12rem]"/>
+                            <Image src={G6} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G3} className="w-[20rem] h-[12rem]" />
+                            <Image src={G7} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G4} className="w-[20rem] h-[12rem]"  />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G5} className="w-[20rem] h-[12rem] "  />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G6} className="w-[20rem] h-[12rem]" />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G7} className="w-[20rem] h-[12rem]" />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G9} className="w-[20rem] h-[12rem]"  />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
 
                     <SwiperSlide className="">
                         <div className="">
-                            <Image src={G1} className="w-[20rem] h-[12rem]"  />
+                            <Image src={G8} className="transition duration-200  w-[30rem] h-[30rem] object-cover hover:scale-150" />
                         </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
                     </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G2} className="w-[20rem] h-[12rem]"  />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
-                    <SwiperSlide className="">
-                        <div className="">
-                            <Image src={G3} className="w-[20rem] h-[12rem]"  />
-                        </div>
-                        {/* <h2 className="mt-[1rem] text-left font-bold text-[.7rem] md:text-xl">Dictum magna</h2> */}
-                    </SwiperSlide>
+
+
+
+
+
                 </Swiper>
             </div>
         </div>

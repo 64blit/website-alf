@@ -3,7 +3,8 @@ import Link from "next/link"
 import Mission from "../assets/mission.png";
 import { BsArrowRight } from 'react-icons/bs';
 
-const MissionAndVission = () => {
+const MissionAndVission = () =>
+{
     return (
         <section className='pt-[3rem]'>
             {/* mission */}
@@ -14,7 +15,7 @@ const MissionAndVission = () => {
                     {/* We believe that linguistic and cultural diversity are essential to human flourishing, and that every language and culture has value and deserves to be preserved. Through our work, we aim to empower communities to preserve their heritage and inspire future generations to celebrate linguistic and cultural diversity. */}
                     <div className="cta mt-[2rem]">
                         <Link href="">
-                            <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div>
+                            {/* <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div> */}
                         </Link>
                     </div>
                 </div>

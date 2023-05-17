@@ -23,7 +23,8 @@ const FilmHeader = () =>
                         <p className="text-white text-xl">The American Language Fund, a non-profit organization that supports endangered languages and cultures, has made significant contributions to the world of film production. One of its most notable projects is its partnership with director Alex Pritz on the award-winning documentary, The Territory. The fund provided film production support for the movie and received three credits for its contributions, including two in the music department for field recordings of Gene Osagie and Milton Fernandez.</p>
                         <div className="cta flex gap-2">
                             <Link href="">
-                                <div className="btn border-b text-white border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div>
+                                {/* <div className="btn border-b text-white border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div> */}
+
                             </Link>
                         </div>
                     </div>

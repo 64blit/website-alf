@@ -1,11 +1,17 @@
+import React, { useState } from 'react';
 import Nav from "./Nav";
 import Image from "next/image";
 import Link from "next/link";
 import { BsFillPlayFill } from "react-icons/bs";
-
+import ModalVideo from 'react-modal-video';
 import People from "../assets/header.png";
 
-const HeroSection = () => {
+
+const HeroSection = () =>
+{
+
+    const [ isOpen, setOpen ] = useState(false)
+
     return (
         <section className="overflow-hidden relative">
             <div className="image absolute top-0 right-0 left-0 bottom-0">
@@ -21,9 +27,12 @@ const HeroSection = () => {
                             <Link href="">
                                 <div className="btn border border-white text-black bg-white font-bold rounded-md py-4 px-5 md:px-12">Donate</div>
                             </Link>
-                            <Link href="">
+                            <Link href="" onClick={() => setOpen(true)}>
                                 <div className="btn text-white font-bold rounded-md py-4 px-4 md:px-10 flex items-center gap-4"><BsFillPlayFill /> Watch Video</div>
                             </Link>
+
+
+                            <ModalVideo channel='vimeo' videoId='827794625' autoplay isOpen={isOpen} onClose={() => setOpen(false)} />
                         </div>
                     </div>
                 </section>
