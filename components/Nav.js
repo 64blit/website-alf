@@ -17,7 +17,7 @@ const Nav = () =>
             <Link href="/" className="transition duration-200 hover:scale-125">
                 <div className="logo flex flex-col uppercase text-center">
                     <span className="text-[1rem] md:text-xl font-bold text-white">The American</span>
-                    <span className="text-[1rem] md:text-xl font-bold text-white">Language und</span>
+                    <span className="text-[1rem] md:text-xl font-bold text-white">Language Fund</span>
                 </div>
             </Link>
             {/* navLinks */}
