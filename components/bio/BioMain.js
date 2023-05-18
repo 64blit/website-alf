@@ -13,6 +13,8 @@ import B11 from '../../assets/bio images/b11.png';
 import EDMUND_IMG from '../../assets/bio images/b12.png';
 import GENE_IMG from '../../assets/bio images/b13.jpg';
 import RUEBEN_IMG from '../../assets/bio images/b14.jpg';
+import WILLIAM_IMG from '../../assets/bio images/b15.jpg';
+
 
 const BioMain = () =>
 {
@@ -27,9 +29,20 @@ const BioMain = () =>
                         <h2 className="text-[#28435A] text-xl font-bold">Gene Osagie</h2>
                     </div>
                     <div className="desc w-[20rem]">
-                        <p>CEO and Founder of the American Language Fund, with extensive management experience in both the private and public sectors, as well as major international development agencies such as Catholic Charities, Plan International, and the United States. With an MA in International Educational Development from Columbia University, Gene is also a field linguist and speaks French, Spanish, Portuguese, and English.</p>
+                        <p>CEO and Founder of the American Language Fund, with extensive management experience in both the private and public sectors, as well as major international development agencies such as Catholic Charities, Plan International, and the United Nations. With an MA in International Educational Development from Columbia University, Gene is also a field linguist and speaks French, Spanish, Portuguese, and English.</p>
                     </div>
                 </div>
+                {/* -------------------------------------------------------------- */}
+                <div className="single-bio">
+                    <Image src={B11} className="w-[20rem]" width={100} height={100} alt="Bio" />
+                    <div className="name py-[1rem]">
+                        <h2 className="text-[#28435A] text-xl font-bold">Ana Suelly Cabral</h2>
+                    </div>
+                    <div className="desc w-[20rem]">
+                        <p>Director of Linguistics with a distinguished career in the field and one of the most celebrated linguists in the world. Ana specializes in the Tupi-Guarani language family and is the Director of the Linguistics Department at the University of Brasilia.</p>
+                    </div>
+                </div>
+                {/* -------------------------------------------------------------- */}
                 <div className="single-bio">
                     <Image src={ROMER_IMG} className="w-[20rem]" width={100} height={100} alt="Bio" />
                     <div className="name py-[1rem]">
@@ -82,6 +95,17 @@ const BioMain = () =>
                 </div>
                 {/* -------------------------------------------------------------- */}
                 <div className="single-bio">
+                    <Image src={WILLIAM_IMG} className="w-[20rem]" width={100} height={100} alt="Bio" />
+                    <div className="name py-[1rem]">
+                        <h2 className="text-[#28435A] text-xl font-bold">William Cuellars</h2>
+                    </div>
+                    <div className="desc w-[20rem]">
+                        <p>Director of Indigenous Relations with 20 years of experience as a politician for the state government of El Beni, as leader of the Siriono tribe, and professor of the Siriono Language. Willan's focus is on building relationships and creating opportunities for indigenous popuplations in the Amazon Basin.</p>
+
+                    </div>
+                </div>
+                {/* -------------------------------------------------------------- */}
+                <div className="single-bio">
                     <Image src={B5} className="w-[20rem]" width={100} height={100} alt="Bio" />
                     <div className="name py-[1rem]">
                         <h2 className="text-[#28435A] text-xl font-bold">Apolo Jimenez</h2>
@@ -119,16 +143,6 @@ const BioMain = () =>
                     </div>
                     <div className="desc w-[20rem]">
                         <p>Director of Donor Relations with years of experience in the field and expertise in fundraising and relationship management.</p>
-                    </div>
-                </div>
-                {/* -------------------------------------------------------------- */}
-                <div className="single-bio">
-                    <Image src={B11} className="w-[20rem]" width={100} height={100} alt="Bio" />
-                    <div className="name py-[1rem]">
-                        <h2 className="text-[#28435A] text-xl font-bold">Ana Suelly Cabral</h2>
-                    </div>
-                    <div className="desc w-[20rem]">
-                        <p>Director of Linguistics with a distinguished career in the field and one of the most celebrated linguists in the world. Ana specializes in the Tupi-Guarani language family and is the Director of the Linguistics Department at the University of Brasilia.</p>
                     </div>
                 </div>
                 {/* -------------------------------------------------------------- */}

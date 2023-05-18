@@ -8,7 +8,9 @@ import PatnersDocumist from "../assets/new/patners_documist.jpg";
 import PartnersIns from "../assets/new/patners_instituto.jpg";
 import PatnersManu from "../assets/new/patners_manaus.jpg"
 
-const Sponsors = () => {
+import PatnersKaninde from "../assets/new/k.jpg"
+const Sponsors = () =>
+{
     return (
         <div className="relative  w-[100%] h-[20vh] md:h-[20vh] overflow-x-hidden">
             {/* <div className="slide animate absolute flex ">
@@ -18,7 +20,7 @@ const Sponsors = () => {
 
             {/* Desktop Slider */}
             <div className="hidden slide animate absolute md:flex">
-                <div className="first-slide w-[100%] grid grid-cols-7">
+                <div className="first-slide w-[100%] grid grid-cols-8">
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={MainDLA} className="w-[80%]" alt="" />
                     </div>
@@ -39,9 +41,12 @@ const Sponsors = () => {
                     </div>
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={PatnersManu} className="w-[80%]" alt="" />
+                    </div>
+                    <div className="img w-full flex justify-center items-center h-[10rem]">
+                        <Image src={PatnersKaninde} className="w-[80%]" alt="" />
                     </div>
                 </div>
-                <div className="first-slide w-[100%] grid grid-cols-7">
+                <div className="first-slide w-[100%] grid grid-cols-8">
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={MainDLA} className="w-[80%]" alt="" />
                     </div>
@@ -62,6 +67,9 @@ const Sponsors = () => {
                     </div>
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={PatnersManu} className="w-[80%]" alt="" />
+                    </div>
+                    <div className="img w-full flex justify-center items-center h-[10rem]">
+                        <Image src={PatnersKaninde} className="w-[80%]" alt="" />
                     </div>
                 </div>
             </div>
@@ -77,6 +85,9 @@ const Sponsors = () => {
                     </div>
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={MainLiving} className="w-[100%]" alt="" />
+                    </div>
+                    <div className="img w-full flex justify-center items-center h-[10rem]">
+                        <Image src={PatnersKaninde} className="w-[80%]" alt="" />
                     </div>
                 </div>
                 <div className="first-slide w-[100%] grid grid-cols-4 gap-4">
@@ -102,6 +113,9 @@ const Sponsors = () => {
                     </div>
                     <div className="img w-full flex justify-center items-center h-[10rem]">
                         <Image src={MainLiving} className="w-[100%]" alt="" />
+                    </div>
+                    <div className="img w-full flex justify-center items-center h-[10rem]">
+                        <Image src={PatnersKaninde} className="w-[80%]" alt="" />
                     </div>
                 </div>
                 <div className="first-slide w-[100%] grid grid-cols-4 gap-4">

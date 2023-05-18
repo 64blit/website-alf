@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Gr1 from "../assets/gr1.png";
-import Gr2 from "../assets/gr2.png";
+import Gr1 from "../assets/gr1.jpg";
+import Gr2 from "../assets/gr2.jpg";
 import Vector from "../assets/VectorChart.png"
 import { BsArrowRight } from "react-icons/bs";
 
@@ -21,15 +21,15 @@ const GrantMain = () =>
                         <p>Over 50% of the approximately 1,900 indigenous languages spoken in the Americas are at risk of disappearing.</p>
                     </div>
                     <div className="p-[2rem] border border-slate-300">
-                        <h2 className="text-[#50A060] text-[3rem] font-bold">2.25%</h2>
+                        <h2 className="text-[#50A060] text-[3rem] font-bold">0.25%</h2>
                         <p>of dying languages in the Americas are spoken by less than 1,000 people.</p>
                     </div>
                     <div className="p-[2rem] border border-slate-300">
-                        <h2 className="text-[#50A060] text-[3rem] font-bold">3.70%</h2>
+                        <h2 className="text-[#50A060] text-[3rem] font-bold">0.70%</h2>
                         <p>of worlds indigenous languages are spoken in the Americas.</p>
                     </div>
                     <div className="p-[2rem] border border-slate-300">
-                        <h2 className="text-[#50A060] text-[3rem] font-bold">4.90%</h2>
+                        <h2 className="text-[#50A060] text-[3rem] font-bold">0.90%</h2>
                         <p>of indigenous languages spoken in the Americas, according to estimates, may be lost by the end of the 20th century.</p>
                     </div>
                 </div>

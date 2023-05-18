@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 
 import GrantHeaderImg from "../assets/grantHeader.png";
-import GrantImg from "../assets/grantHeaderImg.png"
+import GrantImg from "../assets/grant-header.jpg"
 
 const GrantHeader = () =>
 {
@@ -28,7 +28,7 @@ const GrantHeader = () =>
                     </div>
 
                     <div className="">
-                        <Image src={GrantImg} className="w-[30rem]" width={250} height={250} alt="Grant Header" />
+                        <Image src={GrantImg} className="w-[50rem]" width={250} height={250} alt="Grant Header" />
                     </div>
                 </section>
             </div>
