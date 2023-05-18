@@ -20,6 +20,14 @@ import G5 from "../assets/g5.jpeg"
 import G6 from "../assets/g6.jpeg"
 import G7 from "../assets/g7.jpeg"
 import G8 from "../assets/g9.jpeg"
+import G9 from "../assets/new/1beach.jpg"
+import G10 from "../assets/new/1community.jpg"
+import G11 from "../assets/new/1flute.jpg"
+import G12 from "../assets/new/1ice.jpg"
+import G13 from "../assets/new/1kid.jpg"
+import G14 from "../assets/new/1speaker.jpg"
+import G15 from "../assets/new/1team.jpg"
+import G16 from "../assets/new/1territory.jpg"
 
 
 
@@ -89,45 +97,52 @@ const Gallery = () =>
                                     <Image src={G8} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide className="">
                                 <div className="">
-                                    <Image src={G1} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide >
-                                <div className="">
-                                    <Image src={G2} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
-                                    <Image src={G3} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
-                                    <Image src={G4} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
-                                    <Image src={G5} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
-                                    <Image src={G6} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
-                                    <Image src={G7} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G9} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide className="">
                                 <div className="">
-                                    <Image src={G8} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G10} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G11} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G12} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G13} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G14} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G15} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="">
+                                <div className="">
+                                    <Image src={G16} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 

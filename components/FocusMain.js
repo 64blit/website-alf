@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import GrantImg1 from "../assets/grant1.png"
-import GrantImg2 from "../assets/grant2.png"
-import GrantImg3 from "../assets/grant3.png"
+import GrantImg1 from "../assets/1river_amazon.jpg"
+import GrantImg2 from "../assets/1river.jpg"
+import GrantImg3 from "../assets/1jungle.jpg"
 import { BsArrowRight } from "react-icons/bs";
 
 const FocusMain = () =>
@@ -21,7 +21,7 @@ const FocusMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={GrantImg1} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={GrantImg1} className="w-[40rem] md:w-[70rem]" width={300} height={300} />
                 </div>
             </div>
             {/*  */}
@@ -36,13 +36,13 @@ const FocusMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={GrantImg2} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={GrantImg2} className="w-[50rem] md:w-[55rem]" width={300} height={300} />
                 </div>
             </div>
             {/*  */}
             <div className="vision bg-gray-200 flex flex-col items-center mt-[4rem] py-[6rem]">
                 <div className="w-[80%] md:w-[40%] flex flex-col items-center text-center">
-                    <h2 className='font-bold text-2xl mb-[2rem]'>Ultricies potenti velit aliquet</h2>
+                    <h2 className='font-bold text-2xl mb-[2rem]'>Empowering Communities in the Heart of the Amazon</h2>
                     <p className='leading-[2rem]'>The Metropolitan Area of Manaus is located in the heart of the Amazon rainforest and is home to over 2 million people, including many indigenous communities that rely on the forest for their livelihoods. The region faces many challenges, including poverty, discrimination, and lack of access to education. The American Language Fund recognizes the importance of providing educational opportunities to these communities, not only for preserving their cultural heritage but also for promoting sustainable land use practices that protect the fragile ecosystem in which they live.</p>
                     <div className="cta mt-[1rem]">
                         <Link href="">

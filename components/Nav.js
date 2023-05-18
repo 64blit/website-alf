@@ -44,7 +44,7 @@ const Nav = () =>
 
             {/* cta */}
             <div className="cta flex gap-3 items-center">
-                <Link href="" className="transition duration-200 hover:scale-125">
+                <Link target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=7NZ4BTZYXFC5G" className="transition duration-200 hover:scale-125">
                     <div className="btn border border-white text-white font-bold rounded-md py-2 px-5 lg:py-4 lg:px-12">Donate</div>
                 </Link>
                 <div className={`ham block md:hidden relative`}>

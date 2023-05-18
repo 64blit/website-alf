@@ -42,7 +42,7 @@ const GrantMain = () =>
             {/* ------------------------------------------------------------------------------------------- */}
             <section className="2 container mission flex flex-col md:grid md:grid-cols-[48%_50%] gap-6 items-center py-[3rem]">
                 <div className="img">
-                    <Image src={Gr1} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={Gr1} className="w-[20rem] md:w-[55rem]" width={300} height={300} />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Empowering Sustainable Projects with Community Focus</h2>
@@ -90,7 +90,7 @@ const GrantMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={Gr2} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={Gr2} className="w-[40rem] md:w-[55rem]" width={300} height={300} />
                 </div>
             </section>
         </div>
