@@ -56,92 +56,92 @@ const Gallery = () =>
                             modules={[ FreeMode, Autoplay ]}
                             className="w-[100%]"
                         >
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G1} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
-                                <div className="">
+                                <div >
                                     <Image src={G2} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G3} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G4} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G5} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G6} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G7} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G8} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G9} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G10} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G11} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G12} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G13} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G14} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G15} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="">
-                                <div className="">
+                            <SwiperSlide >
+                                <div >
                                     <Image src={G16} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
                                 </div>
                             </SwiperSlide>

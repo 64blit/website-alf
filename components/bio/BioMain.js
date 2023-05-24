@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import BioEntry from "./BioEntry";
 import ROMER_IMG from '../../assets/bio images/b2.png';
 import MOISES_IMG from '../../assets/bio images/b3.png';
 import DAYANA_IMG from '../../assets/bio images/b4.png';
@@ -146,6 +146,28 @@ const BioMain = () =>
                     </div>
                 </div>
                 {/* -------------------------------------------------------------- */}
+            </div>
+            {/* -------------------------------------------------------------- */}
+            {/* A header that reads board members and has a list of names after it. */}
+            <div className="flex flex-col items-center justify-center py-[4rem]">
+                <h1 className="text-[#28435A] text-4xl font-bold">Board Members</h1>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 gap-y-[4rem]">
+
+                <BioEntry name={"Frederick Bernas"} desc={"Freelance journalist published in BBC, CNN, AP. London, England."} />
+                <BioEntry name={"Chris Sciotti"} desc={"Attorney, Sciotti Law PC. Detroit, Michigan."} />
+                <BioEntry name={"Scott Man"} desc={"Former engineer at Tesla Motors, active member of Chickasaw Nation. Baltimore, Maryland."} />
+                <BioEntry name={"Michael Gerber"} desc={"Investor, former staff of Embassy of Switzerland to Bolivia. Santa Cruz, Bolivia"} />
+
+                <BioEntry name={"Dr. Tomas Woods"} desc={"Retired Surgeon based in Point Baker, Alaska."} />
+
+                <BioEntry name={"Dr. Alex Yee"} desc={"Root Canal Specialist, Fundraiser and Investor in Amazon Basin Projects. Boston, Massachusettes"} />
+
+                <BioEntry name={"Edward Smith"} desc={"Head of Counsel, T-Mobile. Miami, Florida."} />
+                <BioEntry name={"Dr. Ana Suelly Cabral"} desc={"Head of Linguistics Department, University of Brasilia. Brasilia, Brazil."} />
+                <BioEntry name={"Gage Ardag"} desc={"Manager of Federal and Capital Grants, SafeHaven. Wasihngton, DC"} />
+
             </div>
         </main>
     );

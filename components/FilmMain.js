@@ -6,7 +6,8 @@ import Territory from "../assets/territory.png";
 import Specter from "../assets/specter.png";
 import Utopians from "../assets/utopians.png";
 
-const AboutMain = () => {
+const AboutMain = () =>
+{
     return (
         <div>
             <section className="1 container py-[3rem]">
@@ -55,13 +56,13 @@ const AboutMain = () => {
                         Rainforest and the importance of environmental
                         conservation.
                     </p>
-                    <div className="cta mt-[2rem]">
+                    {/* <div className="cta mt-[2rem]">
                         <Link href="">
                             <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">
                                 Learn More <BsArrowRight />
                             </div>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="img">
                     <Image
@@ -94,13 +95,13 @@ const AboutMain = () => {
                         fund has made significant contributions to the world of
                         cinema while also advancing its critical cause.
                     </p>
-                    <div className="cta mt-[2rem]">
+                    {/* <div className="cta mt-[2rem]">
                         <Link href="">
                             <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">
                                 Learn More <BsArrowRight />
                             </div>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>

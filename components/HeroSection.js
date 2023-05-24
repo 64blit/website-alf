@@ -25,7 +25,7 @@ const HeroSection = () =>
                         <p className="text-white text-xl">“Of course, there are those who innocently ask: “Wouldn't the world be a better place if we all spoke the same language?” Wouldn't it be easier for us to get along? “My response is always to say, 'That's a fantastic idea. Let's make that universal language Yoruba, Lakota, or Cantonese. Suddenly, people have an idea of ​​what it would mean to not be able to speak their mother tongue.“ - Dr. Wade Davis, National Geographic Explorer-In-Residence</p>
                         <div className="cta flex items-center justify-center gap-2">
                             <Link target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=7NZ4BTZYXFC5G">
-                                <div className="btn border border-white text-black bg-white font-bold rounded-md py-4 px-5 md:px-12">Donate</div>
+                                <div className="btn border border-white text-black bg-white font-bold rounded-md py-4 px-5 md:px-12">Get Involved</div>
                             </Link>
                             <Link href="" onClick={() => setOpen(true)}>
                                 <div className="btn text-white font-bold rounded-md py-4 px-4 md:px-10 flex items-center gap-4"><BsFillPlayFill /> Watch Video</div>

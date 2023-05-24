@@ -44,11 +44,11 @@ const FocusMain = () =>
                 <div className="w-[80%] md:w-[40%] flex flex-col items-center text-center">
                     <h2 className='font-bold text-2xl mb-[2rem]'>Empowering Communities in the Heart of the Amazon</h2>
                     <p className='leading-[2rem]'>The Metropolitan Area of Manaus is located in the heart of the Amazon rainforest and is home to over 2 million people, including many indigenous communities that rely on the forest for their livelihoods. The region faces many challenges, including poverty, discrimination, and lack of access to education. The American Language Fund recognizes the importance of providing educational opportunities to these communities, not only for preserving their cultural heritage but also for promoting sustainable land use practices that protect the fragile ecosystem in which they live.</p>
-                    <div className="cta mt-[1rem]">
+                    {/* <div className="cta mt-[1rem]">
                         <Link href="">
                             <div className="btn bg-[#50A060] text-white font-bold rounded-md py-4 px-5 md:px-12">Learn More</div>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/*  */}
