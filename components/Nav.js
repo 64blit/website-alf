@@ -13,15 +13,15 @@ const Nav = () =>
     }
 
     return (
-        <nav className="flex justify-between items-center pt-[1rem] md:pt-[3rem] px-[1rem] md:px-[1rem] lg:px-[6rem] xl:px-[12rem]">
+        <nav className="flex justify-between items-center min-w-100 pt-[1rem] md:pt-[3rem] px-[1rem] md:px-[1rem] lg:px-[6rem] xl:px-[12rem] lg:gap-[3rem]">
             <Link href="/" className="transition duration-200 hover:scale-125">
-                <div className="logo flex flex-col uppercase text-center">
+                <div className="logo flex flex-col uppercase text-center min-w-[14rem]">
                     <span className="text-[1rem] md:text-xl font-bold text-white">The American</span>
                     <span className="text-[1rem] md:text-xl font-bold text-white">Language Fund</span>
                 </div>
             </Link>
             {/* navLinks */}
-            <div className="nav-links hidden md:gap-[2rem] xl:gap-[6rem] md:flex">
+            <div className="nav-links hidden md:gap-[2rem] md:flex">
                 <Link href="/" className="transition duration-200 hover:scale-125">
                     <span className="text-white text-xl">Home</span>
                 </Link>
@@ -43,7 +43,7 @@ const Nav = () =>
             </div>
 
             {/* cta */}
-            <div className="cta flex gap-3 items-center">
+            <div className="cta flex gap-3 items-center min-w-[14rem] max-w-[14rem] md:mx-[2rem]">
                 <Link target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=7NZ4BTZYXFC5G" className="transition duration-200 hover:scale-125">
                     <div className="btn border border-white text-white font-bold rounded-md py-2 px-5 lg:py-4 lg:px-12">Get Involved</div>
                 </Link>
