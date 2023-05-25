@@ -161,13 +161,13 @@ const BioMain = () =>
                 <BioEntry name={"Scott Man"} desc={"Former engineer at Tesla Motors, active member of Chickasaw Nation. Baltimore, Maryland."} />
                 <BioEntry name={"Michael Gerber"} desc={"Investor, former staff of Embassy of Switzerland to Bolivia. Santa Cruz, Bolivia."} />
 
-                <BioEntry name={"Dr. Thomas Woods"} desc={"Retired Surgeon. Point Baker, Alaska."} />
+                {/* <BioEntry name={"Dr. Thomas Woods"} desc={"Retired Surgeon. Point Baker, Alaska."} /> */}
 
                 <BioEntry name={"Dr. Alex Yee"} desc={"Dental Surgeon, Fundraiser and Investor in Amazon Basin Projects. Boston, Massachusettes. Vice Chair."} />
 
                 <BioEntry name={"Edward Smith"} desc={"Head of Counsel, T-Mobile. Miami, Florida."} />
                 <BioEntry name={"Dr. Ana Suelly Cabral"} desc={"Head of Linguistics Department, University of Brasilia. Brasilia, Brazil."} />
-                <BioEntry name={"Gage Ardag"} desc={"Manager of Federal and Capital Grants, SafeHaven. Wasihngton, DC."} />
+                {/* <BioEntry name={"Gage Ardag"} desc={"Manager of Federal and Capital Grants, SafeHaven. Wasihngton, DC."} /> */}
 
             </div>
         </main>
