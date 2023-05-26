@@ -43,7 +43,7 @@ const Nav = () =>
             </div>
 
             {/* cta */}
-            <div className="cta flex gap-3 items-center min-w-[14rem] max-w-[14rem] md:mx-[2rem]">
+            <div className="cta flex gap-3 items-center min-w-[14rem] max-w-[14rem] sm:invisible md:mx-[2rem]">
                 <Link target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=7NZ4BTZYXFC5G" className="transition duration-200 hover:scale-125">
                     <div className="btn border border-white text-white font-bold rounded-md py-2 px-5 lg:py-4 lg:px-12">Get Involved</div>
                 </Link>
