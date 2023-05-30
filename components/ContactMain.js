@@ -2,8 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 
-import ContactImg1 from "../assets/contact1.png";
-import ContactImg2 from "../assets/contact2.png";
+import ContactImg1 from "../assets/new/office_manaus.jpg";
+import ContactImg2 from "../assets/new/office_manaus2.jpg";
 
 const ContactMain = () =>
 {
@@ -12,7 +12,18 @@ const ContactMain = () =>
             <div className="container mission flex flex-col md:grid md:grid-cols-[50%_48%] gap-6 items-center">
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Our Strategic Office Locations</h2>
-                    <p className='leading-[2rem]'>Our offices are located in strategic border cities of South America. In Cobija, we are located at Avenida 9 de Febrero, near the triple border with Peru and Brazil. The Riberalta Office is located near the Uru Eu Wau Wau reserve in Rondonia, Brazil, north of the Mamoré River. Additionally, we have an office on the banks of the Black River in Manaus, Brazil, Dez de Julho, Centro.</p>
+                    <p className='leading-[2rem]'>
+                        Our organization has deliberately established its primary operational bases in two distinct and significant locations: Santa Cruz de la Sierra and Manaus, Brazil. These carefully selected sites embody the essence of our work and reflect our commitment to making a tangible impact.
+                        <br />
+                        <br />
+                        In Santa Cruz de la Sierra, our office at 3065 Avenida Japon, Tercer Anillo Externo, serves as a dynamic center where ideas converge and initiatives take shape. This bustling city, known for its economic significance and cultural diversity, provides a vibrant backdrop for our endeavors.
+
+                        <br />
+                        <br />
+
+                        Meanwhile, in Manaus, Brazil, our presence at Av. Djalma Batista, 1719, Ed. Atlantic Tower, signifies our engagement with the unique challenges and opportunities presented by this remarkable region. Manaus, nestled amidst the lush Amazon rainforest, is a gateway to environmental conservation and holds immense potential for sustainable development.
+
+                    </p>
                     <div className="cta mt-[2rem]">
                         <Link href="">
                             {/* <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div> */}
