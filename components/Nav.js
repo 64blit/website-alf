@@ -45,7 +45,7 @@ const Nav = () =>
 
             {/* cta */}
             < div className="cta flex items-center min-w-[14rem]  md:mx-[2rem] sm:max-w-[1rem] scale-75 sm:scale-100" >
-                <Link target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=7NZ4BTZYXFC5G" className="transition duration-200 hover:scale-125">
+                <Link target="_blank" href="https://ko-fi.com/americanlanguagefund" className="transition duration-200 hover:scale-125">
                     <div className="btn border border-white text-white font-bold rounded-md py-2 px-5 lg:py-4 lg:px-12">Get Involved</div>
                 </Link>
                 <div className={`ham block md:hidden relative`}>
