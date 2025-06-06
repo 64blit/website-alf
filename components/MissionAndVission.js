@@ -11,7 +11,7 @@ const MissionAndVission = () =>
             <div className="container mission flex flex-col md:grid md:grid-cols-[50%_48%] gap-6 items-center">
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Mission Statement</h2>
-                    <p className='leading-[2rem]'>We empower Indigenous communities to preserve their languages and cultures by addressing the basic infrastructure that language needs to survive—clean water, food security, electricity, and educational tools. We make the invisible visible, mobilizing support and action to ensure that the conditions for learning, dignity, and cultural continuity are in place.</p>
+                    <p className='leading-[2rem]'>Language dies when communities can&apos;t survive. We empower Indigenous communities to preserve their languages and cultures by addressing the basic infrastructure that language needs to survive—clean water, food security, electricity, and educational tools. We make the invisible visible, mobilizing support and action to ensure that the conditions for learning, dignity, and cultural continuity are in place.</p>
                     {/* We believe that linguistic and cultural diversity are essential to human flourishing, and that every language and culture has value and deserves to be preserved. Through our work, we aim to empower communities to preserve their heritage and inspire future generations to celebrate linguistic and cultural diversity. */}
                     <div className="cta mt-[2rem]">
                         <Link href="">

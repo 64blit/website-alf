@@ -22,7 +22,7 @@ const HeroSection = () =>
                 <section className="h-[80%] flex justify-center items-center py-[3rem]">
                     <div className="w-[90vw] md:w-[70vw] lg:w-[50vw] text-center flex flex-col gap-[1.5rem] lg:gap-[4rem]">
                         <header className="text-white font-bold text-[2rem] md:text-[2.7rem] lg:text-[4rem]">We make the invisible visible.</header>
-                        <p className="text-white text-xl">We empower Indigenous communities to preserve their languages and cultures by addressing the basic infrastructure that language needs to survive—clean water, food security, electricity, and educational tools.</p>
+                        <p className="text-white text-xl">Language dies when communities can&apos;t survive. We empower Indigenous communities to preserve their languages and cultures by addressing the basic infrastructure that language needs to survive—clean water, food security, electricity, and educational tools.</p>
                         <div className="cta flex items-center justify-center gap-2">
                             <Link target="_blank" href="https://ko-fi.com/americanlanguagefund">
                                 <div className="btn border border-white text-black bg-white font-bold rounded-md py-4 px-5 md:px-12">Get Involved</div>
