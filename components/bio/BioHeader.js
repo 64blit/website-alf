@@ -13,6 +13,7 @@ const BioHeader = () =>
                     className="w-full h-full object-cover"
                     width={500}
                     height={500}
+                    alt="Header background"
                 />
             </div>
             <div className="relative main-hero-section w-full h-full ">

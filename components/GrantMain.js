@@ -42,7 +42,7 @@ const GrantMain = () =>
             {/* ------------------------------------------------------------------------------------------- */}
             <section className="2 container mission flex flex-col md:grid md:grid-cols-[48%_50%] gap-6 items-center py-[3rem]">
                 <div className="img">
-                    <Image src={Gr1} className="w-[20rem] md:w-[55rem]" width={300} height={300} />
+                    <Image src={Gr1} className="w-[20rem] md:w-[55rem]" width={300} height={300} alt="Indigenous community project showcasing sustainable development" />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Empowering Sustainable Projects with Community Focus</h2>
@@ -63,17 +63,17 @@ const GrantMain = () =>
                 </div>
                 <div className="container flex flex-wrap md:grid md:grid-cols-3 gap-4">
                     <div className="border border-slate-300 bg-white flex flex-row items-center justify-items-stretch  gap-4 p-12 py-14">
-                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart" />
+                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart showing language revitalization statistics" />
                         {/* <h2 className="text-2xl font-bold">Lorem Ipsum</h2> */}
                         <p className="mt-[2rem] text-center">The number of Native American Language speakers in North America has increase 17% due to language revitalization programs.</p>
                     </div>
                     <div className="border border-slate-300 bg-white flex flex-row items-center justify-items-stretch gap-4 p-12 py-14">
-                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart" />
+                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart displaying indigenous language usage data" />
                         {/* <h2 className="text-2xl font-bold">Lorem Ipsum</h2> */}
                         <p className="mt-[2rem] text-center">63% of indigenous languages are still in use despiste being endangered.</p>
                     </div>
                     <div className="border border-slate-300 bg-white flex flex-row items-center justify-items-stretch gap-4 p-12 py-14">
-                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart" />
+                        <Image src={Vector} className="w-[4rem] h-[4rem]" alt="Vector chart showing online language presence statistics" />
                         {/* <h2 className="text-2xl font-bold">Lorem Ipsum</h2> */}
                         <p className="mt-[2rem] text-center">50% of all documented languages online have an online presence.</p>
                     </div>
@@ -91,7 +91,7 @@ const GrantMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={Gr2} className="w-[40rem] md:w-[55rem]" width={300} height={300} />
+                    <Image src={Gr2} className="w-[40rem] md:w-[55rem]" width={300} height={300} alt="Grant application process with indigenous community collaboration" />
                 </div>
             </section>
         </div>

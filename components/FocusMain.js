@@ -21,14 +21,14 @@ const FocusMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={GrantImg1} className="w-[40rem] md:w-[70rem]" width={300} height={300} />
+                    <Image src={GrantImg1} className="w-[40rem] md:w-[70rem]" width={300} height={300} alt="Amazon river landscape showing our work region" />
                 </div>
             </div>
             {/*  */}
             <div className="container flex flex-col md:grid md:grid-cols-[50%_48%] gap-6 items-center pt-[3rem]">
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     {/* <h2 className='font-bold text-2xl mb-[3rem]'>Ultricies potenti velit aliquet</h2> */}
-                    <p className='leading-[2rem]'>The Peruvian Amazon is one of the most biologically diverse areas of the Amazon rainforest, home to over 90 distinct indigenous languages. This region covers over 60% of Peru's land area and contains over 14,000 plant species, 1,800 bird species, and 900 fish species. Many of these languages are closely linked to the ecosystems in which they are spoken, reflecting the deep relationship that indigenous communities have with the natural world. The American Language Fund invests in language revitalization and cultural preservation efforts in the Peruvian Amazon, helping to ensure that traditional ecological knowledge is passed down from generation to generation, promoting sustainable land management practices and preserving the biodiversity of this unique ecosystem.</p>
+                    <p className='leading-[2rem]'>The Peruvian Amazon is one of the most biologically diverse areas of the Amazon rainforest, home to over 90 distinct indigenous languages. This region covers over 60% of Peru&apos;s land area and contains over 14,000 plant species, 1,800 bird species, and 900 fish species. Many of these languages are closely linked to the ecosystems in which they are spoken, reflecting the deep relationship that indigenous communities have with the natural world. The American Language Fund invests in language revitalization and cultural preservation efforts in the Peruvian Amazon, helping to ensure that traditional ecological knowledge is passed down from generation to generation, promoting sustainable land management practices and preserving the biodiversity of this unique ecosystem.</p>
                     <div className="cta mt-[2rem]">
                         <Link href="">
                             {/* <div className="btn border-b border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div> */}
@@ -36,7 +36,7 @@ const FocusMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={GrantImg2} className="w-[50rem] md:w-[55rem]" width={300} height={300} />
+                    <Image src={GrantImg2} className="w-[50rem] md:w-[55rem]" width={300} height={300} alt="River waterway in the Peruvian Amazon region" />
                 </div>
             </div>
             {/*  */}
@@ -54,7 +54,7 @@ const FocusMain = () =>
             {/*  */}
             <div className="container flex flex-col md:grid md:grid-cols-[50%_48%] gap-6 items-center pt-[3rem]">
                 <div className="img">
-                    <Image src={GrantImg3} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={GrantImg3} className="w-[20rem] md:w-[35rem]" width={300} height={300} alt="Dense Amazon jungle representing biodiversity and linguistic diversity" />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Language & The Enviroment</h2>

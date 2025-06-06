@@ -23,7 +23,7 @@ const AboutMain = () =>
                         for The Utopians, a mini-series that explores the impact
                         of lithium extraction on the indigenous communities of
                         the Salar de Uyuni in Bolivia. The American Language
-                        Fund's involvement in this project underscores its
+                        Fund&apos;s involvement in this project underscores its
                         commitment to advocating for marginalized communities
                         and cultures.
                     </p>
@@ -34,6 +34,7 @@ const AboutMain = () =>
                         className="w-full md:w-[70%] mx-auto"
                         width={300}
                         height={300}
+                        alt="The Utopians film poster featuring lithium extraction impact on indigenous communities"
                     />
                 </div>
             </section>
@@ -44,14 +45,14 @@ const AboutMain = () =>
                         Broken Specter
                     </h2>
                     <p className="leading-[2rem]">
-                        The American Language Fund's work in the film industry
+                        The American Language Fund&apos;s work in the film industry
                         extends beyond supporting individual productions. The
                         fund has also helped filmmakers like Irish artist
                         Richard Mosse to preserve and disseminate their work. In
-                        Mosse's case, the fund supported the post-production
+                        Mosse&apos;s case, the fund supported the post-production
                         moving of film rolls from the Amazon Rainforest to his
                         studio in Queens, New York. This support ensures that
-                        Mosse's art can be shared with a wider audience, helping
+                        Mosse&apos;s art can be shared with a wider audience, helping
                         to raise awareness about the destruction of the Amazon
                         Rainforest and the importance of environmental
                         conservation.
@@ -70,6 +71,7 @@ const AboutMain = () =>
                         className="w-[20rem] md:w-[35rem]"
                         width={300}
                         height={300}
+                        alt="Broken Specter artwork by Richard Mosse documenting Amazon destruction"
                     />
                 </div>
             </section>
@@ -81,6 +83,7 @@ const AboutMain = () =>
                         className="w-[20rem] md:w-[35rem]"
                         width={300}
                         height={300}
+                        alt="The Territory documentary film poster about indigenous land preservation"
                     />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
@@ -88,7 +91,7 @@ const AboutMain = () =>
                         The Territory
                     </h2>
                     <p className="leading-[2rem]">
-                        Overall, the American Language Fund's involvement in
+                        Overall, the American Language Fund&apos;s involvement in
                         film production reflects its broader mission to promote
                         the preservation of endangered languages and cultures.
                         Through its work with filmmakers and other artists, the

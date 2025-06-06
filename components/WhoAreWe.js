@@ -9,7 +9,7 @@ const WhoAreWe = () =>
         <div className="my-[4rem]">
             <div className="container mission flex flex-col md:grid md:grid-cols-[48%_50%] gap-6 items-center">
                 <div className="img">
-                    <Image src={WhoWe} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={WhoWe} className="w-[20rem] md:w-[35rem]" width={300} height={300} alt="Team members of American Language Fund working with indigenous communities" />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Who We Are Statement</h2>

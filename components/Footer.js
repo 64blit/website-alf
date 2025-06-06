@@ -22,7 +22,7 @@ const Footer = () => {
                         <span className="text-[.7rem] md:text-xl">Contact us</span>
                     </Link>
                     <Link href="/">
-                        <span className="text-[.7rem] md:text-xl">Patners</span>
+                        <span className="text-[.7rem] md:text-xl">Partners</span>
                     </Link>
                     {/* <Link href="/">
                         <span className="text-[.7rem] md:text-xl">Investors</span>

@@ -59,7 +59,7 @@ const BioMain = () =>
                         <h2 className="text-[#28435A] text-xl font-bold">Rubén </h2>
                     </div>
                     <div className="desc max-w-[20rem]">
-                        <p>Head of Transportation and Project Management, overseeing logistics and coordination for our initiatives in the Amazon region. His expertise ensures efficient movement of resources, personnel, and equipment, supporting our mission to protect indigenous communities' cultural and linguistic heritage.</p>
+                        <p>Head of Transportation and Project Management, overseeing logistics and coordination for our initiatives in the Amazon region. His expertise ensures efficient movement of resources, personnel, and equipment, supporting our mission to protect indigenous communities&apos; cultural and linguistic heritage.</p>
                     </div>
                 </div>
                 {/* -------------------------------------------------------------- */}
@@ -89,7 +89,7 @@ const BioMain = () =>
                         <h2 className="text-[#28435A] text-xl font-bold">Edmund Dao</h2>
                     </div>
                     <div className="desc max-w-[20rem]">
-                        <p>Chief Technology Officer and Co-Founder with a strong background in relevant field or industry and years of experience. Edmund's specific area of expertise is in software engineering, and he has held previous job titles such as Lead Software Engineer and Software Development Manager.</p>
+                        <p>Chief Technology Officer and Co-Founder with a strong background in relevant field or industry and years of experience. Edmund&apos;s specific area of expertise is in software engineering, and he has held previous job titles such as Lead Software Engineer and Software Development Manager.</p>
 
                     </div>
                 </div>
@@ -100,7 +100,7 @@ const BioMain = () =>
                         <h2 className="text-[#28435A] text-xl font-bold">William Cuellars</h2>
                     </div>
                     <div className="desc max-w-[20rem]">
-                        <p>Director of Indigenous Relations with 20 years of experience as a politician for the state government of El Beni, as leader of the Siriono tribe, and professor of the Siriono Language. Willan's focus is on building relationships and creating opportunities for indigenous popuplations in the Amazon Basin.</p>
+                        <p>Director of Indigenous Relations with 20 years of experience as a politician for the state government of El Beni, as leader of the Siriono tribe, and professor of the Siriono Language. Willan&apos;s focus is on building relationships and creating opportunities for indigenous popuplations in the Amazon Basin.</p>
 
                     </div>
                 </div>
@@ -132,7 +132,7 @@ const BioMain = () =>
                         <h2 className="text-[#28435A] text-xl font-bold">Gindel Delgado</h2>
                     </div>
                     <div className="desc max-w-[20rem]">
-                        <p>Chief Audiovisual Officer with 10 years of experience in documentary film and photojournalism with NBC, FRANCE 24, DW, CNN, and the BBC. Gindel's specific area of expertise is cinematography, and he has been nominated for an Emmy Award for his documentary film work with Vice Media on HBO.</p>
+                        <p>Chief Audiovisual Officer with 10 years of experience in documentary film and photojournalism with NBC, FRANCE 24, DW, CNN, and the BBC. Gindel&apos;s specific area of expertise is cinematography, and he has been nominated for an Emmy Award for his documentary film work with Vice Media on HBO.</p>
                     </div>
                 </div>
                 {/* -------------------------------------------------------------- */}

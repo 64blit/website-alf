@@ -11,7 +11,7 @@ const GrantHeader = () =>
     return (
         <section className="overflow-hidden relative">
             <div className="image absolute top-0 right-0 left-0 bottom-0">
-                <Image src={GrantHeaderImg} className="w-full h-full object-cover" width={500} height={500} />
+                <Image src={GrantHeaderImg} className="w-full h-full object-cover" width={500} height={500} alt="Grant application header background with Amazon landscape" />
             </div>
             <div className="relative main-hero-section w-full h-full ">
                 <Nav />

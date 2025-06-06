@@ -11,7 +11,7 @@ const MissionAndVission = () =>
             <div className="container mission flex flex-col md:grid md:grid-cols-[50%_48%] gap-6 items-center">
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Mission Statement</h2>
-                    <p className='leading-[2rem]'>The American Language Fund, a 501c3 organization based in Santa Cruz de la Sierra, is dedicated to a comprehensive, interdisciplinary approach to language preservation. Our team of 30 professionals, spanning diverse disciplines such as civil engineering, indigenous leadership, archaeology, linguistics, law, topography, architecture, and economics, operates at the intersection of these fields. Our mission involves utilizing various avenues, including documentary filmmaking and strategic investments in sanitation, water, lighting, hospitals, and language education programs. By embracing innovation and posing unconventional questions, we transcend traditional disciplinary boundaries. Our commitment to collective wisdom creates a community-driven environment that fosters collaboration. This collaborative spirit enables us to redefine the frontiers of knowledge and discover transformative solutions in our pursuit of language preservation.</p>
+                    <p className='leading-[2rem]'>We empower Indigenous communities to preserve their languages and cultures by addressing the basic infrastructure that language needs to survive—clean water, food security, electricity, and educational tools. We make the invisible visible, mobilizing support and action to ensure that the conditions for learning, dignity, and cultural continuity are in place.</p>
                     {/* We believe that linguistic and cultural diversity are essential to human flourishing, and that every language and culture has value and deserves to be preserved. Through our work, we aim to empower communities to preserve their heritage and inspire future generations to celebrate linguistic and cultural diversity. */}
                     <div className="cta mt-[2rem]">
                         <Link href="">
@@ -20,20 +20,14 @@ const MissionAndVission = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={Mission} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={Mission} className="w-[20rem] md:w-[35rem]" width={300} height={300} alt="Mission statement illustration showing indigenous community empowerment" />
                 </div>
             </div>
             {/* vision */}
             <div className="vision bg-gray-200 flex flex-col items-center mt-[4rem] py-[6rem]">
                 <div className="w-[80%] md:w-[40%] flex flex-col items-center text-center">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Vision Statement</h2>
-                    <p className='leading-[2rem]'><b>OUR VISION</b>  encompasses a global landscape where communities no longer endure the burdensome struggle for mere survival, but instead thrive and possess the agency to shape their own destinies. Guided by this profound vision, the American Language Fund holds in utmost reverence the safeguarding of the invaluable social, cultural, visual, and intellectual legacies inherent within the indigenous and diasporic communities of the Americas.
-
-                        By recognizing the significance of these communities' collective experiences and contributions, we strive to cultivate an environment where their heritage remains intact, cherished, and respected. We firmly believe that the preservation of their rich tapestry of traditions, languages, artistic expressions, and wisdom is not only a moral imperative but also a catalyst for fostering inclusive and sustainable societies.
-
-                        Through the lens of cultural preservation, we aspire to facilitate meaningful dialogue, encourage intercultural exchange, and empower these communities to reclaim their narratives. By amplifying their voices and acknowledging their histories, we aim to challenge existing power structures, rectify historical injustices, and forge pathways towards a more equitable and harmonious coexistence.
-
-                        In our pursuit of these noble objectives, we are driven by the conviction that cultural diversity is an invaluable asset, enriching the fabric of humanity. By embracing the vibrant mosaic of indigenous and diasporic cultures, we not only honor the past but also shape a future where all communities are free to express their identities and contribute to the collective progress of humanity.</p>
+                    <p className='leading-[2rem]'>A world where no language dies because of broken systems. We envision Indigenous communities across the Americas equipped with the resources, respect, and recognition they need—not only to survive, but to thrive as stewards of humanity&apos;s deepest legacies.</p>
                     {/* <p className='leading-[2rem]'>Our vision is a world where linguistic and cultural diversity is celebrated, and communities have the resources they need to preserve and pass on their unique languages and cultures. We believe that linguistic and cultural diversity are essential to human flourishing, and that every language and culture has value and deserves to be preserved. Through our work at American Language Fund, we aim to empower communities to preserve their heritage and inspire future generations to celebrate linguistic and cultural diversity.</p> */}
                     {/* <div className="cta mt-[1rem]">
                         <Link href="">

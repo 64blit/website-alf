@@ -41,7 +41,7 @@ const AboutMain = () =>
             {/* ------------------------------------------------------------------------------------------- */}
             <section className="2 container mission flex flex-col md:grid md:grid-cols-[48%_50%] gap-6 items-center py-[3rem]">
                 <div className="img">
-                    <Image src={AboutImg1} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={AboutImg1} className="w-[20rem] md:w-[35rem]" width={300} height={300} alt="Indigenous community member engaged in grant consultation" />
                 </div>
                 <div className="text flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className='font-bold text-2xl mb-[3rem]'>Engaging Communities for Impactful Grants</h2>
@@ -65,7 +65,7 @@ const AboutMain = () =>
                     </div>
                 </div>
                 <div className="img">
-                    <Image src={AboutImg2} className="w-[20rem] md:w-[35rem]" width={300} height={300} />
+                    <Image src={AboutImg2} className="w-[20rem] md:w-[35rem]" width={300} height={300} alt="Community members working on sustainable development project" />
                 </div>
             </section>
         </div>

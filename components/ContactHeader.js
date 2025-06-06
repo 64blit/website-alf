@@ -60,14 +60,14 @@ const ContactHeader = () =>
     return (
         <section className="overflow-hidden relative">
             <div className="image absolute top-0 right-0 left-0 bottom-0">
-                <Image src={ContactHeaderImg} className="w-full h-full object-cover" width={500} height={500} />
+                <Image src={ContactHeaderImg} className="w-full h-full object-cover" width={500} height={500} alt="Contact page header background with Amazon landscape" />
             </div>
             <div className="relative main-hero-section w-full h-full ">
                 <Nav />
                 <section className="h-[80%] w-[80%] mx-auto py-[4rem] flex flex-col md:grid md:grid-cols-[50%_38%] gap-[2rem] items-center">
                     <div className=" flex flex-col items-center text-center md:items-start md:text-left gap-[1.5rem] lg:gap-[4rem]">
                         <header className="text-white font-bold text-[2rem] md:text-[2.7rem] lg:text-[3rem]">Connecting Globally, Rooted in the Amazon</header>
-                        <p className="text-white text-xl">While our efforts span across the entire American continent, we refrain from establishing fixed branches beyond the confines of the Amazon Rainforest, considering it to be the core of our work in the Americas. Nonetheless, we extend an open invitation to individuals worldwide who wish to inquire about our Fund, Grants, and various initiatives. Don't hesitate to reach out to us if you have any inquiries; we are eager to receive your messages and provide comprehensive responses addressing any queries related to our endeavors.</p>
+                        <p className="text-white text-xl">While our efforts span across the entire American continent, we refrain from establishing fixed branches beyond the confines of the Amazon Rainforest, considering it to be the core of our work in the Americas. Nonetheless, we extend an open invitation to individuals worldwide who wish to inquire about our Fund, Grants, and various initiatives. Don&apos;t hesitate to reach out to us if you have any inquiries; we are eager to receive your messages and provide comprehensive responses addressing any queries related to our endeavors.</p>
                         <div className="cta flex gap-2">
                             <Link href="">
                                 {/* <div className="btn border-b text-white border-slate-500 w-max py-4 font-bold flex items-center gap-5">Learn More <BsArrowRight /></div> */}

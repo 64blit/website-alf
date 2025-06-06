@@ -35,6 +35,9 @@ const Nav = () =>
                 <Link href="/film" className="transition text-center min-w-[4rem] duration-200 hover:scale-125 text-white text-xl">
                     Film
                 </Link>
+                <Link href="/timeline" className="transition text-center min-w-[4rem] duration-200 hover:scale-125 text-white text-xl">
+                    Timeline
+                </Link>
                 <Link href="/bio" className="transition text-center min-w-[4rem] duration-200 hover:scale-125 text-white text-xl">
                     Bio
                 </Link>
@@ -69,6 +72,9 @@ const Nav = () =>
                 </Link>
                 <Link href="/film" className="transition duration-200 hover:scale-125">
                     <span className="text-xl font-medium block p-5 px-8 hover:bg-slate-200" onClick={toggleMenu}>Film</span>
+                </Link>
+                <Link href="/timeline" className="transition duration-200 hover:scale-125">
+                    <span className="text-xl font-medium block p-5 px-8 hover:bg-slate-200" onClick={toggleMenu}>Timeline</span>
                 </Link>
                 <Link href="/bio" className="transition duration-200 hover:scale-125">
                     <span className="text-xl font-medium block p-5 px-8 hover:bg-slate-200" onClick={toggleMenu}>Bio</span>

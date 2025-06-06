@@ -10,7 +10,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 // import required modules
-import { FreeMode, Autoplay } from "swiper";
+import { FreeMode, Autoplay } from "swiper/modules";
 
 import G1 from "../assets/g1.jpeg"
 import G2 from "../assets/g2.jpeg"
@@ -58,91 +58,91 @@ const Gallery = () =>
                         >
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G1} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G1} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 1 - American Language Fund community work" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G2} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G2} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 2 - Indigenous community engagement" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G3} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G3} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 3 - Language preservation activities" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G4} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G4} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 4 - Cultural heritage documentation" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G5} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G5} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 5 - Community development projects" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G6} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G6} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 6 - Amazon conservation efforts" />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G7} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
-                                </div>
-                            </SwiperSlide>
-
-                            <SwiperSlide >
-                                <div >
-                                    <Image src={G8} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G7} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 7 - Educational initiatives in action" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G9} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G8} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Gallery image 8 - Indigenous territory and environment" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G10} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G9} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Beach landscape in indigenous territory" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G11} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G10} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Indigenous community members gathering" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G12} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G11} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Traditional flute music performance" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G13} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G12} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Ice landscape showing environmental diversity" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G14} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G13} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Indigenous child in community setting" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G15} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G14} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Community speaker sharing traditional knowledge" />
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide >
                                 <div >
-                                    <Image src={G16} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" />
+                                    <Image src={G15} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Team collaboration in the field" />
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide >
+                                <div >
+                                    <Image src={G16} className="transition duration-200  w-[20rem] h-[20rem] object-cover hover:scale-150" alt="Indigenous territory landscape view" />
                                 </div>
                             </SwiperSlide>
 
@@ -157,28 +157,28 @@ const Gallery = () =>
             <MobileView>
                 <Carousel autoplay={true}>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G1} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G1} alt="Gallery image 1 - American Language Fund community work" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G2} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G2} alt="Gallery image 2 - Indigenous community engagement" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G3} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G3} alt="Gallery image 3 - Language preservation activities" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G4} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G4} alt="Gallery image 4 - Cultural heritage documentation" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G5} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G5} alt="Gallery image 5 - Community development projects" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G6} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G6} alt="Gallery image 6 - Amazon conservation efforts" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G7} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G7} alt="Gallery image 7 - Educational initiatives in action" />
                     </div>
                     <div>
-                        <Image className="h-[25rem] w-[25rem] object-contain" src={G8} />
+                        <Image className="h-[25rem] w-[25rem] object-contain" src={G8} alt="Gallery image 8 - Indigenous territory and environment" />
                     </div>
                 </Carousel>
             </MobileView>
